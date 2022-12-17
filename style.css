@@ -1,0 +1,385 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+}
+
+.center {
+    padding-left: calc(50% - 800px);
+    padding-right: calc(50% - 800px);
+}
+
+.page-header {
+    align-items: center;
+    height: 75px;
+    width: 100%;
+    max-width: 1600px;
+    display: flex;
+    justify-content: space-around;
+    gap: 860px;
+    left: 0px;
+    background-color: #222222;
+}
+
+.page-header-wrp-btn {
+    height: 38px;
+    width: 110.99895477294922px;
+    left: 231px;
+    top: 18px;
+    border-radius: 0px;
+}
+
+.header_list_btn {
+    display: flex;
+    gap: 33px;
+}
+
+.page-header-btn-list {
+    height: 23px;
+    width: 32px;
+    left: 1201px;
+    top: 30px;
+    border-radius: 0px;
+    color: #E8E8E8;
+}
+
+.page-header-btn-account {
+    height: 29px;
+    width: 29px;
+    left: 1266px;
+    top: 26px;
+    border-radius: 0px;
+    color: #E8E8E8;
+}
+
+.page-header-btn-basket {
+    width: 32px;
+    height: 29px;
+    left: 1328px;
+    top: 26px;
+    color: #E8E8E8;
+}
+
+.banner {
+    align-items: center;
+    background: #F1E4E6;
+    display: flex;
+    height: 800px;
+    max-width: 1600px;
+    width: 100%;
+    left: 0px;
+    top: 75px;
+    border-radius: 0px;
+}
+
+.banner_text {
+    gap: 16px;
+    display: flex;
+    height: 93.09912109375px;
+    width: 405px;
+    left: 864px;
+    top: 364.90087890625px;
+    border-radius: 0px;
+}
+
+.banner-txt1 {
+    color: linear-gradient(0deg, #222222, #222222), linear-gradient(0deg, #F16D7F, #F16D7F);
+    font-family: Lato;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 58px;
+    letter-spacing: 0em;
+}
+
+.banner-txt2 {
+    color: linear-gradient(0deg, #222222, #222222), linear-gradient(0deg, #F16D7F, #F16D7F);
+    font-family: Lato;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0em;
+}
+
+.top-content {
+    margin-top: 65px;
+    margin-left: 230px;
+}
+
+.offer {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(4, 360px);
+    gap: 30px;
+    justify-content: center;
+}
+
+.item {
+    min-height: 180px;
+}
+
+.item1 {
+    height: 260px;
+    width: 360px;
+    border-radius: 0px;
+    background: #211616;
+    position: relative;
+}
+
+.item1-txt1 {
+    width: 154px;
+    position: absolute;
+    left: 20.81%;
+    right: 69.56%;
+    top: 44.5%;
+    bottom: 53.79%;
+    color: #FFFFFF;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+}
+
+.item1-txt2 {
+    position: absolute;
+    left: 20.81%;
+    right: 69.56%;
+    top: 54.5%;
+    bottom: 63.79%;
+    width: 154px;
+    color: #F16D7F;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.item2 {
+    height: 260px;
+    width: 360px;
+    border-radius: 0px;
+    background: #211616;
+    position: relative;
+}
+
+.item2-txt1 {
+    width: 154px;
+    position: absolute;
+    left: 30.81%;
+    right: 59.56%;
+    top: 44.5%;
+    bottom: 53.79%;
+    color: #FFFFFF;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+}
+
+.item2-txt2 {
+    position: absolute;
+    left: 30.81%;
+    right: 59.56%;
+    top: 54.5%;
+    bottom: 43.79%;
+    width: 154px;
+    color: #F16D7F;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.item3 {
+    height: 260px;
+    width: 360px;
+    border-radius: 0px;
+    background: #211616;
+    position: relative;
+}
+
+.item3-txt1 {
+    width: 154px;
+    position: absolute;
+    left: 30.81%;
+    right: 59.56%;
+    top: 44.5%;
+    bottom: 53.79%;
+    color: #FFFFFF;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+}
+
+.item3-txt2 {
+    position: absolute;
+    left: 30.81%;
+    right: 59.56%;
+    top: 54.5%;
+    bottom: 43.79%;
+    width: 154px;
+    color: #F16D7F;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.item4 {
+    height: 180px;
+    width: 1140px;
+    background: #211616;
+    position: relative;
+    grid-column: 4/1;
+}
+
+.item4-txt1 {
+    width: 154px;
+    position: absolute;
+    left: 45.07%;
+    right: 44.95%;
+    top: 43.04%;
+    bottom: 55.25%;
+    color: #FFFFFF;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 19px;
+    text-align: center;
+}
+
+.item4-txt2 {
+    position: absolute;
+    left: 45.07%;
+    right: 44.95%;
+    top: 55.04%;
+    bottom: 43.25%;
+    width: 154px;
+    color: #F16D7F;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.products {
+    max-width: 1140px;
+    width: 100%;
+    border-radius: 0px;
+    margin-top: 96px;
+    margin-left: 230px;
+    position: relative;
+}
+
+.product-title1 {
+    position: absolute;
+    left: 35%;
+    right: 65%;
+    height: 36px;
+    width: 382px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    color: #222222;
+}
+
+.dd {
+    color: #FFFFFF;
+}
+
+.product-title1-txt {
+    margin: 10px 350px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    color: #9F9F9F;
+}
+
+.card-product {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(3, 360px);
+    gap: 30px;
+    justify-content: center;
+}
+
+.card1 {
+    height: 587px;
+    border-radius: 0px;
+}
+
+.card-title {
+    margin-left: 16px;
+    margin-top: 24px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.card-txt {
+    margin-left: 16px;
+    margin-top: 16px;
+    width: 314.74px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5D5D5D;
+}
+
+.card-price {
+    margin-left: 16px;
+    margin-top: 16px;
+    width: 52.46px;
+    height: 19px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F16D7F;
+}
+
+.button_page {
+    margin-left: 465px;
+    margin-top: 48px;
+    height: 48px;
+    width: 212px;
+    left: 695px;
+    top: 2817px;
+    border-radius: 0px;
+    background: #FFFFFF;
+}
+
+.btn-title {
+    margin: 15px 39px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 19px;
+    color: #F26376;
+}
